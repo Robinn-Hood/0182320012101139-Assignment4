@@ -1,0 +1,9 @@
+void main() {
+  List<String> friends = ["Akash", "Basim", "Amit", "Fayez", "Adib", "Zahin", "Rafi"];
+
+  for (var friend in friends) {
+    if (friend.toLowerCase().startsWith('a')) {
+      print("Friend name starting with 'A': $friend");
+    }
+  }
+}
