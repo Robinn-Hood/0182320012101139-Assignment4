@@ -1,0 +1,12 @@
+void main() {
+  Map<String, String> contacts = {
+    "Mahi": "12345",
+    "Taha": "67890",
+    "Ifty": "98765",
+    "Mahim": "55555"
+  };
+
+  contacts.keys.where((key) => key.length == 4).forEach((key) {
+    print("Key with 4 letters: $key");
+  });
+}
