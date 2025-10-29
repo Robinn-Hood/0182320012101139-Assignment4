@@ -6,10 +6,8 @@ void main() {
     "country": "Bangladesh"
   };
 
-  // Update country
   person["country"] = "London";
 
-  // Print all keys and values
   person.forEach((key, value) {
     print("$key : $value");
   });
